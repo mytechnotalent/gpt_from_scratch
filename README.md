@@ -1,3 +1,9 @@
+![image](https://github.com/mytechnotalent/HackingGPT-1/blob/main/HackingGPT.png?raw=true)
+
+## FREE Reverse Engineering Self-Study Course [HERE](https://github.com/mytechnotalent/Reverse-Engineering-Tutorial)
+
+<br>
+
 # GPT From Scratch
 This notebook builds a complete GPT (Generative Pre-trained Transformer) model from scratch using PyTorch. It covers tokenization, self-attention, multi-head attention, transformer blocks, and text generation and all explained step-by-step with a simple nursery rhyme corpus.
 #### Author: [Kevin Thomas](mailto:ket189@pitt.edu)
@@ -1123,3 +1129,4 @@ Total parameters: 27,747
 
 ```
 
+## MIT License
