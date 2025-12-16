@@ -163,6 +163,7 @@ idx2word (number → word):
 # This is the numerical representation of our training data
 data = torch.tensor([word2idx[word] for word in text.split()], dtype=torch.long)
 
+# Display data tensor information
 print(f"Data tensor shape: {data.shape}")
 print(f"Total tokens: {len(data)}")
 print(f"\nFirst 20 tokens: {data[:20]}")
@@ -207,6 +208,7 @@ n_layers = 2            # 2 transformer blocks stacked
 lr = 1e-3               # Learning rate (0.001)
 epochs = 1500           # Number of training steps
 
+# Display hyperparameters
 print("Hyperparameters set!")
 print(f"Context window: {block_size} tokens")
 print(f"Embedding dimension: {embedding_dim}")
@@ -261,7 +263,8 @@ def get_batch(batch_size=16):
     # Create target sequences: tokens from position i+1 to i+block_size+1
     # This is the "next token" for each position in x
     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
-    
+
+    # Return the input and target tensors
     return x, y
 
 # Let's see an example batch
