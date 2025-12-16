@@ -32,6 +32,7 @@ else:
     device = torch.device("cpu")
     print("Using CPU")
 
+# Final device output
 print(f"\nDevice: {device}")
 ```
 
