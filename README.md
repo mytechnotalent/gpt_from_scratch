@@ -1,3 +1,9 @@
+![image](https://github.com/mytechnotalent/gpt_from_scratch/blob/main/gpt_from_scratch.png?raw=true)
+
+## FREE Reverse Engineering Self-Study Course [HERE](https://github.com/mytechnotalent/Reverse-Engineering-Tutorial)
+
+<br>
+
 # GPT From Scratch
 
 ## What is GPT?
