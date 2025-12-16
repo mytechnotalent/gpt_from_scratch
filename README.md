@@ -1,4 +1,4 @@
-![image](https://github.com/mytechnotalent/HackingGPT-1/blob/main/HackingGPT.png?raw=true)
+![image](https://github.com/mytechnotalent/gpt_from_scratch/blob/main/gpt_from_scratch.png?raw=true)
 
 ## FREE Reverse Engineering Self-Study Course [HERE](https://github.com/mytechnotalent/Reverse-Engineering-Tutorial)
 
